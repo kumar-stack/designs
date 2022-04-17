@@ -798,7 +798,10 @@ h1{
 	background-color: brown;
 	position: relative;
 }
-
+.doner:hover .owner{
+	background-color: green;
+	transition:3s ease-in-out;
+}
 .doner:hover .owner::before{
 	bottom: -250px;	
 	height: 20px;
