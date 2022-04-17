@@ -802,6 +802,7 @@ h1{
 	background-color: green;
 	transition:3s ease-in-out;
 }
+
 .doner:hover .owner::before{
 	bottom: -250px;	
 	height: 20px;
